@@ -1,0 +1,19 @@
+{{> trainermenu id="dashboard"}}
+
+{{#each members}}
+<section class="ui grid raised segment middle aligned">
+    <section class=" two wide column">
+        <i class="  blue user icon "></i>
+    </section>
+    <section class="thirteen wide column">
+        <a href="/trainerdashboard/{{id}}/trainerview" class=""ui icon button>
+            <span class="ui text large">{{name}}</span>
+        </a>
+    </section>
+    <section class="one wide column">
+        <a href="/trainerdashboard/deletemember/{{id}}" >
+            <i class="trash alternate icon red big"></i>
+        </a>
+    </section>
+</section>
+{{/each}}

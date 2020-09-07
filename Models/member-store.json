@@ -1,0 +1,25 @@
+{
+  "memberCollection": [
+    {
+      "name": "Marge",
+      "gender": "F",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "address": "123 Springfield",
+      "height": "1.6",
+      "startingWeight": 60,
+      "id": "5fd605a0-dc1f-11ea-867e-99c10bb45854"
+    },
+    {
+      "name": "mark",
+      "gender": "weldon",
+      "email": "123@g.com",
+      "password": "",
+      "address": "123",
+      "height": "1",
+      "startingweight": "100",
+      "id": "4ccd20d0-f090-11ea-a93f-17d34e6769b1",
+      "startingWeight": "90"
+    }
+  ]
+}
