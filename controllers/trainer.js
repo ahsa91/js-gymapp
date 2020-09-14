@@ -47,17 +47,17 @@ const trainerdashboard = {
     response.redirect("/trainerdashboard");
   },
 
-  addComment(request, response){
+  comment (request, response){
     const memberId=request.params.id;
     const member= memberStore.getMemberById(memberId);
     const assessmentId=request.params.assessmentid;
     const assessment=assessmentStore.getAssessment(assessmentId);
 
     const comment={
-      comment:request.body.comment
-    }
+      comment: request.body.comment
+    };
     assessmentStore.comment(assessment,comment);
-    response.redirect("/trainerdashboard"+ member.id+ "trainerview")
+    response.redirect("/trainerdashboard/"+ member.id+ "/trainerview")
 
   }
 

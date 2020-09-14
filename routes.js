@@ -25,13 +25,13 @@ router.get("/trainerdashboard",trainer.indexTrainer);
 
 // router.get('/member/:id', dashboard.trainerdashboard);
 // router.get("/trainerdashboard/deletemember/:id", trainer.deleteMember)
-router.get('/dashboard/deleteassessment/:id/trainerview', assessments.deleteAssessment);
+router.get('/dashboard/deleteassessment/:id', assessments.deleteAssessment);
 router.post('/dashboard/addassessment', assessments.addAssessment);
 router.get("/trainerdashboard/:id/trainerview", trainer.trainerView);
 router.get("/profile", dashboard.updateMember);
 router.post("/dashboard/edit", dashboard.editMember);
 
-router.post("/trainerview/:id/comment/:assessmentid", trainer.addComment);
+router.post("/trainerview/:id/comment/:assessmentid", trainer.comment);
 
 
 module.exports = router;

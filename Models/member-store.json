@@ -12,14 +12,44 @@
     },
     {
       "name": "mark",
-      "gender": "weldon",
+      "gender": "Male",
       "email": "123@g.com",
-      "password": "",
+      "password": "secret",
       "address": "123",
       "height": "1",
       "startingweight": "100",
       "id": "4ccd20d0-f090-11ea-a93f-17d34e6769b1",
       "startingWeight": "90"
+    },
+    {
+      "name": "ahmad sabeh-murphy",
+      "gender": "M",
+      "email": "ahsa91@gmail.com",
+      "password": "secret",
+      "address": "THOMPSON HOUSE MACCURTAIN STREET",
+      "height": "1.4",
+      "startingweight": "80",
+      "id": "435285d0-f636-11ea-8aa1-63f3fc394c98"
+    },
+    {
+      "name": "john",
+      "gender": "M",
+      "email": "hoe@blogs.net",
+      "password": "secret",
+      "address": "123 address",
+      "height": "1.4",
+      "startingweight": "70",
+      "id": "11416000-f638-11ea-a6e5-75fc792acecb"
+    },
+    {
+      "name": "mary",
+      "gender": "F",
+      "email": "mary@blogs.net",
+      "password": "secre",
+      "address": "123password",
+      "height": "1.4",
+      "startingweight": "50",
+      "id": "4fd88f30-f63a-11ea-a646-7382d972b1c2"
     }
   ]
 }

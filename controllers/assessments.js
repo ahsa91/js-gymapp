@@ -23,7 +23,7 @@ const assessment = {
       thigh: Number(request.body.thigh),
       upperArm: Number(request.body.upperArm),
       waist: Number(request.body.waist),
-      hips: Number(request.body.hips),
+      hips: Number(request.body.hips)
     };
     logger.debug("Adding  Assessment", newAssessment);
     assessmentStore.addAssessment(newAssessment);
